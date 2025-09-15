@@ -1,0 +1,39 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing:border-box;
+ }
+html,body{
+    height:100%;
+    width:100%;
+ }
+
+ #main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: pink;
+ }
+
+ #box{
+    width: 30vw;
+    height: 30vh;
+    background-color: red;  
+ }
+
+ button{
+    width: 100px;
+    height: 50px;
+    font-weight: 700;
+    font-family: gilroy;
+    font-size: larger;
+    border-radius: 10px;
+    border:2px solid navy  ;
+    background-color: powderblue;
+
+ }
+ 
+

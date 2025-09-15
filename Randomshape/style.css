@@ -1,0 +1,55 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing:border-box;
+ }
+html,body{
+    height:100%;
+    width:100%;
+ }
+
+ .box{
+    width: 300px;
+    height: 300px;
+    background-color: rebeccapurple;
+
+ }
+ .rectangle{
+    clip-path: polygon(29% 0, 100% 0, 100% 100%, 29% 100%);
+
+ }
+ .triangle{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+ }
+ .pentagon{
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+ }
+
+ .hexagon{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+ }
+ .circle{
+    clip-path: circle(50% at 50% 50%);
+ }
+ .rhombus{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+ }
+ .square{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+ }
+ .star{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+ }
+
+ button{
+    width: 100;
+    height: 90px;
+    padding: 10px;
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+ }

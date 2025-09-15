@@ -1,0 +1,32 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing:border-box;
+ }
+html,body{
+    height:100%;
+    width:100%;
+ }
+ .main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: orange;
+ }
+
+ .box{
+    position: absolute;
+    background-color: black;
+ }
+ .main button{
+   color: orangered;
+   font-size: 40px;
+   padding: 5px 2px;
+ }
+ .main input{
+   padding: 5px;
+ }
